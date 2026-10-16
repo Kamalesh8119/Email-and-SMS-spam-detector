@@ -1,26 +1,42 @@
-A machine learning–based web application that classifies Email or SMS messages as Spam or Not Spam. The project is built for learning and demonstration purposes and focuses on simplicity, clarity, and end‑to‑end ML workflow—from data preprocessing to deployment.
+# Email and SMS Spam Detection
 
-🚀 Features
+## Project Description
+A web application that classifies email and SMS messages as **Spam** or **Not Spam**. It uses Natural Language Processing (NLP) techniques to preprocess text and a Naive Bayes classifier to identify spam messages.
 
-Classifies text messages as Spam or Safe
+The application features a simple, interactive Streamlit interface that allows users to enter messages and receive real-time predictions.
 
-Clean and minimal Streamlit user interface
+## Technologies and Tools Used
+- **Python** – Core programming language
+- **Streamlit** – Web application interface
+- **Scikit-learn** – Text vectorization and classification
+- **Naive Bayes** – Spam classification algorithm
+- **NLTK** – Text preprocessing
+- **Pandas and NumPy** – Data handling
+- **Pickle** – Saving and loading the trained model and vectorizer
+- **Jupyter Notebook** – Development and experimentation
+- **Git and GitHub** – Version control and project hosting
 
-Trained using Naive Bayes for fast and interpretable results
+## Instructions to Run the Project
 
-Supports real‑time message analysis
+### 1. Clone the repository
+```bash
+git clone <your-github-repository-url>
+```
 
-Easy to deploy and extend
+### 2. Navigate to the project directory
+```bash
+cd <your-project-folder>
+```
 
+### 3. Install dependencies
+```bash
+pip install -r requirements.txt
+```
 
-🛠️ Tech Stack
+### 4. Launch the application
+```bash
+streamlit run app.py
+```
 
-Python
-
-Streamlit – Web interface
-
-Scikit‑learn – Machine learning
-
-Pandas / NumPy – Data handling
-
-NLTK – Text preprocessing
+### 5. Use the application
+Open the local URL shown in your terminal, usually `http://localhost:8501`, and enter an email or SMS message to check whether it is spam.
