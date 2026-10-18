@@ -1,0 +1,7 @@
+.git
+.venv
+.devcontainer
+__pycache__
+*.ipynb
+.ipynb_checkpoints
+*.pem
